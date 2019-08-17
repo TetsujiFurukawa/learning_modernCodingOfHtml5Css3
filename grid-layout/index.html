@@ -128,11 +128,13 @@
 
   <script src="lib/masonry.pkgd.min.js"></script>
   <script>
-    new Masonry('body', {
-      itemSelector: '.item',
-      columnwidth: 180,
-      gutter: 4
-    });
+    window.onload = function () {
+      new Masonry('body', {
+        itemSelector: '.item',
+        columnWidth: 180,
+        gutter: 4
+      });
+    };
   </script>
 </body>
 

@@ -16,7 +16,7 @@ body {
 }
 
 *,
-*::befor,
+*::before,
 *::after {
   box-sizing: border-box;
 }
@@ -42,8 +42,9 @@ a:active {
 }
 
 .item .image {
-  display: inline-block;
+  display: block;
   width: 100%;
+  height: 109px;
 }
 
 .item .category {
@@ -107,6 +108,10 @@ a:active {
   width: 364px;
 }
 
+.item-m .image {
+  height: 146px;
+}
+
 .item-l {
   width: 732px;
 }
@@ -114,7 +119,3 @@ a:active {
 .item-l .image {
   height: 403px;
 }
-
-/* .item-l {
-  width: 732px;
-} */
